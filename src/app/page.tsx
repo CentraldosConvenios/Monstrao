@@ -9,7 +9,7 @@ export default function Home() {
       {/* Bloco 1 - Banner */}
       <div className="w-full max-w-[1160px]">
         <Image
-          src="/banner.jpg" // Substitua pelo caminho real da imagem
+          src="/SemTítulo-1.png" // Substitua pelo caminho real da imagem
           alt="Banner principal"
           width={1160}
           height={595}
@@ -37,6 +37,29 @@ export default function Home() {
           >
             FALE CONOSCO
           </Link>
+        </div>
+      </section>
+      {/* Bloco 3 - Marcas */}
+      <section className="mt-16 w-full flex justify-center">
+        <div className="flex gap-6 max-w-[1160px] w-full justify-center">
+          <div className="flex-1 min-w-0">
+            <Image
+              src="/Grupo17.png" // Substitua pelo caminho real
+              alt="Marca 1"
+              width={474}
+              height={595}
+              className="w-full h-auto object-cover rounded-[12px]"
+            />
+          </div>
+          <div className="flex-1 min-w-0">
+            <Image
+              src="/Grupo16.png" // Substitua pelo caminho real
+              alt="Marca 2"
+              width={474}
+              height={595}
+              className="w-full h-auto object-cover rounded-[12px]"
+            />
+          </div>
         </div>
       </section>
     </main>
