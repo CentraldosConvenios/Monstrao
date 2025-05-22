@@ -1,0 +1,102 @@
+[
+  {
+    "id": "nike",
+    "name": "Nike",
+    "logo": "/images/brands/nike-logo.png"
+  },
+  {
+    "id": "adidas",
+    "name": "Adidas",
+    "logo": "/images/brands/adidas-logo.png"
+  },
+  {
+    "id": "lacoste",
+    "name": "lacoste",
+    "logo": "/images/brands/adidas-logo.png"
+  },
+  {
+    "id": "jordan",
+    "name": "jordan",
+    "logo": "/images/brands/adidas-logo.png"
+  },
+  {
+    "id": "new balance",
+    "name": "new balance",
+    "logo": "/images/brands/adidas-logo.png"
+  },
+  {
+    "id": "puma",
+    "name": "puma",
+    "logo": "/images/brands/adidas-logo.png"
+  },
+  {
+    "id": "hugo boss",
+    "name": "hugo boss",
+    "logo": "/images/brands/adidas-logo.png"
+  },
+  {
+    "id": "asics",
+    "name": "asics",
+    "logo": "/images/brands/adidas-logo.png"
+  },
+  {
+    "id": "mizuno",
+    "name": "mizuno",
+    "logo": "/images/brands/adidas-logo.png"
+  },
+  {
+    "id": "off white",
+    "name": "off white",
+    "logo": "/images/brands/adidas-logo.png"
+  },
+  {
+    "id": "vanz",
+    "name": "vanz",
+    "logo": "/images/brands/adidas-logo.png"
+  },
+  {
+    "id": "alpine star",
+    "name": "alpine star",
+    "logo": "/images/brands/adidas-logo.png"
+  },
+  {
+    "id": "quiksilver",
+    "name": "quiksilver",
+    "logo": "/images/brands/adidas-logo.png"
+  },
+  {
+    "id": "oakley",
+    "name": "oakley",
+    "logo": "/images/brands/adidas-logo.png"
+  },
+  {
+    "id": "hangloose",
+    "name": "hangloose",
+    "logo": "/images/brands/adidas-logo.png"
+  },
+  {
+    "id": "hurley",
+    "name": "hurley",
+    "logo": "/images/brands/adidas-logo.png"
+  },
+  {
+    "id": "lost",
+    "name": "lost",
+    "logo": "/images/brands/adidas-logo.png"
+  },
+  {
+    "id": "mcd",
+    "name": "mcd",
+    "logo": "/images/brands/adidas-logo.png"
+  },
+  {
+    "id": "rip curl",
+    "name": "rip curl",
+    "logo": "/images/brands/adidas-logo.png"
+  },
+  {
+    "id": "cyclone",
+    "name": "cyclone",
+    "logo": "/images/brands/adidas-logo.png"
+  }
+]
