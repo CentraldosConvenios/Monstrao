@@ -9,7 +9,7 @@ export default function WhoWeAre() {
       <div className="flex flex-col lg:flex-row items-center justify-center gap-[60px] lg:gap-[118px] max-w-[1440px] px-6 sm:px-10 md:px-14">
         {/* Bloco 1 - Texto */}
         <div className="max-w-[580px] flex flex-col gap-[30px]">
-          <h2 className="text-[28px] sm:text-[32px] md:text-[36px] lg:text-[40px] font-bold leading-tight text-center lg:text-left">
+          <h2 className="text-[28px] sm:text-[32px] md:text-[36px] lg:text-[40px] font-bold leading-tight text-center lg:text-left text-black">
             Onde os Grandes do <br /> Varejo se Abastecem.
           </h2>
 

@@ -1,0 +1,16 @@
+{
+  "id": "nike",
+  "name": "Nike",
+  "logo": "/images/brands/nike-logo.png",
+  "description": "Fabricante global de calçados, roupas e equipamentos esportivos.",
+  "products": [
+    {
+      "id": "nike-air-max",
+      "name": "Nike Air Max",
+      "image": "/images/products/nike-air-max.jpg",
+      "price": 599.90,
+      "description": "Tênis de corrida com tecnologia Air.",
+      "features": ["Tecnologia Air", "Mesh respirável", "Solado de borracha"]
+    }
+  ]
+}

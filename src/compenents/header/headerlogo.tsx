@@ -5,7 +5,7 @@ export default function HeaderSection() {
     <div className="bg-white px-[50px] py-[18px] w-full">
       <div className="flex justify-between items-center w-full max-w-screen-xl mx-auto flex-nowrap gap-4 sm:gap-8">
         {/* Logo */}
-        <div className="font-['Helvetica Neue'] text-[24px] sm:text-[30px] tracking-widest font-bold">
+        <div className="font-['Helvetica Neue'] text-[24px] sm:text-[30px] tracking-widest font-bold text-black">
           MO$TRÃO
         </div>
 
