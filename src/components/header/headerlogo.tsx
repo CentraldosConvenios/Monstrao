@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function HeaderSection() {
   function handleWhatsAppClick() {
-    const phoneNumber = '55119242453595'; // Código do Brasil + número (55 + DDD + número)
+    const phoneNumber = '5511942453595'; // Código do Brasil + número (55 + DDD + número)
     const url = `https://wa.me/${phoneNumber}`;
     window.open(url, '_blank');
   }

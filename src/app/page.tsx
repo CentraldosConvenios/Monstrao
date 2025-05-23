@@ -20,7 +20,7 @@ export default function Home() {
 
       {/* Bloco 2 - CTA */}
       <section className="mt-10 flex flex-col items-center text-center">
-        <h2 className="text-[20px] font-bold mb-6">
+        <h2 className="text-[20px] text-black font-bold mb-6">
           AS MELHORES MEIAS DO MERCADO
         </h2>
 
@@ -32,7 +32,7 @@ export default function Home() {
             Saiba Mais
           </Link>
           <Link
-            href="https://wa.me/55119242453595"
+            href="https://wa.me/5511942453595"
             className="border border-black text-black text-[14px] font-bold px-6 py-3 rounded-full hover:bg-black hover:text-white transition"
           >
             FALE CONOSCO

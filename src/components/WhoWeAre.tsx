@@ -23,7 +23,7 @@ export default function WhoWeAre() {
           </p>
 
           <Link
-            href="#"
+            href="https://wa.me/5511942453595"
             className="bg-black text-white px-6 py-3 rounded-full w-fit text-[14px] sm:text-[16px] font-semibold hover:bg-[#111] transition"
           >
             Fale com um especialista
