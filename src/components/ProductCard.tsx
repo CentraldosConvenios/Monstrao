@@ -13,7 +13,7 @@ export interface Product {
 export default function ProductCard({ product }: { product: Product }) {
   const [imgError, setImgError] = useState(false);
 
-  const whatsappNumber = '5511999999999'; // Substitua pelo seu número
+  const whatsappNumber = '55119242453595'; // Substitua pelo seu número
   const message = encodeURIComponent(`Olá! Tenho interesse no produto: ${product.name}`);
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${message}`;
 

@@ -5,7 +5,9 @@ import Link from 'next/link';
 
 export default function WhoWeAre() {
   return (
-    <section className="w-full flex justify-center items-center py-[60px] bg-white">
+    <section 
+    id='quemsomos'
+    className="w-full flex justify-center items-center py-[60px] bg-white">
       <div className="flex flex-col lg:flex-row items-center justify-center gap-[60px] lg:gap-[118px] max-w-[1440px] px-6 sm:px-10 md:px-14">
         {/* Bloco 1 - Texto */}
         <div className="max-w-[580px] flex flex-col gap-[30px]">
