@@ -92,6 +92,7 @@ export default function BrandNav({ brands }: { brands: Brand[] }) {
         msOverflowStyle: "none", // IE/Edge
       }}
     >
+    <div className="w-full flex justify-center">
       <nav
         className="flex gap-[26px] whitespace-nowrap px-[8px]"
         style={{
@@ -108,7 +109,7 @@ export default function BrandNav({ brands }: { brands: Brand[] }) {
           </Link>
         ))}
       </nav>
-
+    </div>
       {/* Oculta visualmente a scrollbar no Webkit (Chrome, Safari, etc.) */}
       <style jsx>{`
         div::-webkit-scrollbar {
