@@ -4,58 +4,59 @@
   "logo": "/images/brands/nike-logo.png",
   "description": "Fabricante global de calçados, roupas e equipamentos esportivos.",
   "products": [
+    
     {
       "id": "meia-jordan-dourada",
       "name": "meia jordan dourada",
-      "image": "/images/products/nike-air-max.jpg",
+      "image": "/imagens/brands/products/jordan/meia-jordan-dourada.jpeg",
       "description": "Tênis de corrida com tecnologia Air."
     },
     {
       "id": "meia-jordan-paris",
       "name": "meia jordan paris",
-      "image": "/images/products/nike-air-max.jpg",
+      "image": "/imagens/brands/products/jordan/meia-jordan-paris.jpeg",
       "description": "Tênis de corrida com tecnologia Air."
     },
     {
       "id": "meia-jordan-amarela",
       "name": "meia jordan amarela",
-      "image": "/images/products/nike-air-max.jpg",
+      "image": "/imagens/brands/products/jordan/meia-jordan-amarela.jpeg",
       "description": "Tênis de corrida com tecnologia Air."
     },
     {
       "id": "meia-jordan-preta-vermelha",
       "name": "meia jordan preta e vermelha",
-      "image": "/images/products/nike-air-max.jpg",
+      "image": "/imagens/brands/products/jordan/meia-jordan-preta-vermelha.jpeg",
       "description": "Tênis de corrida com tecnologia Air."
     },
     {
       "id": "meia-jordan-basica-preta",
       "name": "meia jordan basica preta",
-      "image": "/images/products/nike-air-max.jpg",
+      "image": "/imagens/brands/products/jordan/meia-jordan-basica-preta.jpeg",
       "description": "Tênis de corrida com tecnologia Air."
     },
     {
       "id": "meia-jordan-basica-branca",
       "name": "meia-jordan-basica-branca",
-      "image": "/images/products/nike-air-max.jpg",
+      "image": "/imagens/brands/products/jordan/meia-jordan-basica-branca.jpeg",
       "description": "Tênis de corrida com tecnologia Air."
     },
     {
       "id": "meia-jordan-air",
       "name": "meia jordan air",
-      "image": "/images/products/nike-air-max.jpg",
+      "image": "/imagens/brands/products/jordan/meia-jordan-air.jpeg",
       "description": "Tênis de corrida com tecnologia Air."
     },
     {
       "id": "meia-jordan-poliamida-rosa",
       "name": "meia jordan poliamida rosa",
-      "image": "/images/products/nike-air-max.jpg",
+      "image": "/imagens/brands/products/jordan/meia-jordan-rosa.jpeg",
       "description": "Tênis de corrida com tecnologia Air."
     },
     {
       "id": "meia-jordan-poliamida-laranja",
       "name": "meia jordan poliamida laranja",
-      "image": "/images/products/nike-air-max.jpg",
+      "image": "/imagens/brands/products/jordan/meia-jordan-laranja.jpeg",
       "description": "Tênis de corrida com tecnologia Air."
     }
   ]

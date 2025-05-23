@@ -7,13 +7,13 @@
     {
       "id": "meia-lacoste-classica-preta",
       "name": "Meia Lacoste Clássica Preta",
-      "image": "/images/products/meia-lacoste-classica-preta.jpg",
+      "image": "/imagens/brands/products/lacoste/lacoste-preta.jpeg",
       "description": "Meia clássica preta da Lacoste, estilo casual e sofisticado."
     },
     {
       "id": "meia-lacoste-classica-branca",
       "name": "Meia Lacoste Clássica Branca",
-      "image": "/images/products/meia-lacoste-classica-branca.jpg",
+      "image": "/imagens/brands/products/lacoste/lacoste-branca.jpeg",
       "description": "Meia clássica branca da Lacoste, conforto e elegância para o dia a dia."
     }
   ]
