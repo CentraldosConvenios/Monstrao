@@ -30,11 +30,6 @@
     "logo": "/images/brands/adidas-logo.png"
   },
   {
-    "id": "hugoboss",
-    "name": "Hugo Boss",
-    "logo": "/images/brands/adidas-logo.png"
-  },
-  {
     "id": "asics",
     "name": "Asics",
     "logo": "/images/brands/adidas-logo.png"
@@ -55,11 +50,6 @@
     "logo": "/images/brands/adidas-logo.png"
   },
   {
-    "id": "alpinestar",
-    "name": "Alpine Star",
-    "logo": "/images/brands/adidas-logo.png"
-  },
-  {
     "id": "quiksilver",
     "name": "Quiksilver",
     "logo": "/images/brands/adidas-logo.png"
@@ -67,36 +57,6 @@
   {
     "id": "oakley",
     "name": "Oakley",
-    "logo": "/images/brands/adidas-logo.png"
-  },
-  {
-    "id": "hangloose",
-    "name": "Hangloose",
-    "logo": "/images/brands/adidas-logo.png"
-  },
-  {
-    "id": "hurley",
-    "name": "Hurley",
-    "logo": "/images/brands/adidas-logo.png"
-  },
-  {
-    "id": "lost",
-    "name": "Lost",
-    "logo": "/images/brands/adidas-logo.png"
-  },
-  {
-    "id": "mcd",
-    "name": "Mcd",
-    "logo": "/images/brands/adidas-logo.png"
-  },
-  {
-    "id": "ripcurl",
-    "name": "Rip Curl",
-    "logo": "/images/brands/adidas-logo.png"
-  },
-  {
-    "id": "cyclone",
-    "name": "Cyclone",
     "logo": "/images/brands/adidas-logo.png"
   }
 ]
