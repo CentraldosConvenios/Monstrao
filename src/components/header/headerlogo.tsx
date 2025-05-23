@@ -15,7 +15,7 @@ export default function HeaderSection() {
         
         {/* Logo */}
         <Link href="/" className="font-['Helvetica Neue'] text-[24px] sm:text-[30px] tracking-widest font-bold text-black">
-         MO$TRÃO
+         MON$TRÃO
         </Link>
 
         {/* Botão */}
