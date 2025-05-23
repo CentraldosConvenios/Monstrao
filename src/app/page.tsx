@@ -44,6 +44,7 @@ export default function Home() {
       <section className="mt-16 w-full flex justify-center">
         <div className="flex gap-6 max-w-[1160px] w-full justify-center">
           <div className="flex-1 min-w-0">
+            <Link href="/brand/vans">
             <Image
               src="/Grupo17.png" // Substitua pelo caminho real
               alt="Marca 1"
@@ -51,8 +52,10 @@ export default function Home() {
               height={595}
               className="w-full h-auto object-cover rounded-[12px]"
             />
+            </Link>
           </div>
           <div className="flex-1 min-w-0">
+            <Link href="/brand/adidas">
             <Image
               src="/Grupo16.png" // Substitua pelo caminho real
               alt="Marca 2"
@@ -60,6 +63,7 @@ export default function Home() {
               height={595}
               className="w-full h-auto object-cover rounded-[12px]"
             />
+            </Link>
           </div>
         </div>
       </section>
@@ -67,6 +71,7 @@ export default function Home() {
       <section className="mt-16 w-full flex justify-center">
         <div className="flex gap-4 max-w-[1160px] w-full justify-center">
           <div className="flex-1 min-w-0">
+            <Link href="/brand/jordan">
             <Image
               src="/meia1.png" // Substitua pelos caminhos reais
               alt="Galeria 1"
@@ -74,8 +79,10 @@ export default function Home() {
               height={497}
               className="w-full h-auto object-cover rounded-[12px]"
             />
+            </Link>
           </div>
           <div className="flex-1 min-w-0">
+            <Link href="brand/nike">
             <Image
               src="/meia2.png"
               alt="Galeria 2"
@@ -83,8 +90,10 @@ export default function Home() {
               height={497}
               className="w-full h-auto object-cover rounded-[12px]"
             />
+            </Link>
           </div>
           <div className="flex-1 min-w-0">
+            <Link href="brand/adidas">
             <Image
               src="/meia3.png"
               alt="Galeria 3"
@@ -92,6 +101,7 @@ export default function Home() {
               height={497}
               className="w-full h-auto object-cover rounded-[12px]"
             />
+            </Link>
           </div>
         </div>
       
