@@ -5,12 +5,94 @@
   "description": "Fabricante global de calçados, roupas e equipamentos esportivos.",
   "products": [
     {
-      "id": "nike-air-max",
-      "name": "Nike Air Max",
+      "id": "meia-adidas-vermelha-branca",
+      "name": "meia adidas vermelha e branca",
       "image": "/images/products/nike-air-max.jpg",
-      "price": 599.90,
-      "description": "Tênis de corrida com tecnologia Air.",
-      "features": ["Tecnologia Air", "Mesh respirável", "Solado de borracha"]
+      "description": "Tênis de corrida com tecnologia Air."
+    },
+    {
+      "id": "meia-adidas-reggae",
+      "name": "Meia Adidas Reggae",
+      "image": "/images/products/nike-air-max.jpg",
+      "description": "Tênis de corrida com tecnologia Air."
+    },
+    {
+      "id": "meia-adidas-toxic-preta",
+      "name": "meia adidas toxic preta",
+      "image": "/images/products/nike-air-max.jpg",
+      "description": "Tênis de corrida com tecnologia Air."
+    },
+    {
+      "id": "meia-adidas-preta",
+      "name": "meia adidas preta",
+      "image": "/images/products/nike-air-max.jpg",
+      "description": "Tênis de corrida com tecnologia Air."
+    },
+    {
+      "id": "meia-adidas-solid-crew-preta",
+      "name": "meia adidas solid crew preta",
+      "image": "/images/products/nike-air-max.jpg",
+      "description": "Tênis de corrida com tecnologia Air."
+    },
+    {
+      "id": "meia-adidas-glass-preta",
+      "name": "meia-adidas-glass-preta",
+      "image": "/images/products/nike-air-max.jpg",
+      "description": "Tênis de corrida com tecnologia Air."
+    },
+    {
+      "id": "meia-adidas-superstar-preta",
+      "name": "meia adidas superstar preta",
+      "image": "/images/products/nike-air-max.jpg",
+      "description": "Tênis de corrida com tecnologia Air."
+    },
+    {
+      "id": "meia-adidas-tenis-branca",
+      "name": "meia adidas tenis branca",
+      "image": "/images/products/nike-air-max.jpg",
+      "description": "Tênis de corrida com tecnologia Air."
+    },
+    {
+      "id": "meia-adidas-tenis-preta",
+      "name": "meia tenis branca laranja preta",
+      "image": "/images/products/nike-air-max.jpg",
+      "description": "Tênis de corrida com tecnologia Air."
+    },
+    {
+      "id": "meia-adidas-basica",
+      "name": "meia adidas basica",
+      "image": "/images/products/nike-air-max.jpg",
+      "description": "Tênis de corrida com tecnologia Air."
+    },
+    {
+      "id": "meia-adidas-listra-preta",
+      "name": "meia adidas listra-preta",
+      "image": "/images/products/nike-air-max.jpg",
+      "description": "Tênis de corrida com tecnologia Air."
+    },
+    {
+      "id": "meia-big-branca",
+      "name": "meia adidas big branca",
+      "image": "/images/products/nike-air-max.jpg",
+      "description": "Tênis de corrida com tecnologia Air."
+    },
+    {
+      "id": "meia-adidas-letreino",
+      "name": "meia adidas letreino",
+      "image": "/images/products/nike-air-max.jpg",
+      "description": "Tênis de corrida com tecnologia Air."
+    },
+    {
+      "id": "meia-adidas-unissex-rosa",
+      "name": "meia adidas unissex rosa",
+      "image": "/images/products/nike-air-max.jpg",
+      "description": "Tênis de corrida com tecnologia Air."
+    },
+    {
+      "id": "meia-adidas-tenis-bordado",
+      "name": "meia adidas tenis bordado",
+      "image": "/images/products/nike-air-max.jpg",
+      "description": "Tênis de corrida com tecnologia Air."
     }
   ]
 }

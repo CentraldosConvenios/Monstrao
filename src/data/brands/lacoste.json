@@ -1,0 +1,20 @@
+{
+  "id": "lacoste",
+  "name": "Lacoste",
+  "logo": "/images/brands/lacoste-logo.png",
+  "description": "Marca francesa reconhecida por seu estilo elegante e esportivo.",
+  "products": [
+    {
+      "id": "meia-lacoste-classica-preta",
+      "name": "Meia Lacoste Clássica Preta",
+      "image": "/images/products/meia-lacoste-classica-preta.jpg",
+      "description": "Meia clássica preta da Lacoste, estilo casual e sofisticado."
+    },
+    {
+      "id": "meia-lacoste-classica-branca",
+      "name": "Meia Lacoste Clássica Branca",
+      "image": "/images/products/meia-lacoste-classica-branca.jpg",
+      "description": "Meia clássica branca da Lacoste, conforto e elegância para o dia a dia."
+    }
+  ]
+}

@@ -11,92 +11,92 @@
   },
   {
     "id": "lacoste",
-    "name": "lacoste",
+    "name": "Lacoste",
     "logo": "/images/brands/adidas-logo.png"
   },
   {
     "id": "jordan",
-    "name": "jordan",
+    "name": "Jordan",
     "logo": "/images/brands/adidas-logo.png"
   },
   {
-    "id": "new balance",
-    "name": "new balance",
+    "id": "newbalance",
+    "name": "New Balance",
     "logo": "/images/brands/adidas-logo.png"
   },
   {
     "id": "puma",
-    "name": "puma",
+    "name": "Puma",
     "logo": "/images/brands/adidas-logo.png"
   },
   {
-    "id": "hugo boss",
-    "name": "hugo boss",
+    "id": "hugoboss",
+    "name": "Hugo Boss",
     "logo": "/images/brands/adidas-logo.png"
   },
   {
     "id": "asics",
-    "name": "asics",
+    "name": "Asics",
     "logo": "/images/brands/adidas-logo.png"
   },
   {
     "id": "mizuno",
-    "name": "mizuno",
+    "name": "Mizuno",
     "logo": "/images/brands/adidas-logo.png"
   },
   {
-    "id": "off white",
-    "name": "off white",
+    "id": "offwhite",
+    "name": "Off White",
     "logo": "/images/brands/adidas-logo.png"
   },
   {
-    "id": "vanz",
-    "name": "vanz",
+    "id": "vans",
+    "name": "Vans",
     "logo": "/images/brands/adidas-logo.png"
   },
   {
-    "id": "alpine star",
-    "name": "alpine star",
+    "id": "alpinestar",
+    "name": "Alpine Star",
     "logo": "/images/brands/adidas-logo.png"
   },
   {
     "id": "quiksilver",
-    "name": "quiksilver",
+    "name": "Quiksilver",
     "logo": "/images/brands/adidas-logo.png"
   },
   {
     "id": "oakley",
-    "name": "oakley",
+    "name": "Oakley",
     "logo": "/images/brands/adidas-logo.png"
   },
   {
     "id": "hangloose",
-    "name": "hangloose",
+    "name": "Hangloose",
     "logo": "/images/brands/adidas-logo.png"
   },
   {
     "id": "hurley",
-    "name": "hurley",
+    "name": "Hurley",
     "logo": "/images/brands/adidas-logo.png"
   },
   {
     "id": "lost",
-    "name": "lost",
+    "name": "Lost",
     "logo": "/images/brands/adidas-logo.png"
   },
   {
     "id": "mcd",
-    "name": "mcd",
+    "name": "Mcd",
     "logo": "/images/brands/adidas-logo.png"
   },
   {
-    "id": "rip curl",
-    "name": "rip curl",
+    "id": "ripcurl",
+    "name": "Rip Curl",
     "logo": "/images/brands/adidas-logo.png"
   },
   {
     "id": "cyclone",
-    "name": "cyclone",
+    "name": "Cyclone",
     "logo": "/images/brands/adidas-logo.png"
   }
 ]

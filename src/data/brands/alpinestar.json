@@ -1,0 +1,20 @@
+{
+  "id": "alpinestar",
+  "name": "Alpine Star",
+  "logo": "/images/brands/alpinestar-logo.png",
+  "description": "Referência mundial em vestuário e acessórios para motociclismo.",
+  "products": [
+    {
+      "id": "meia-alpinestar-basica-preta",
+      "name": "Meia Alpine Star Básica Preta",
+      "image": "/images/products/meia-alpinestar-basica-preta.jpg",
+      "description": "Meia preta da Alpine Star, estilo e proteção para o dia a dia."
+    },
+    {
+      "id": "meia-alpinestar-basica-branca",
+      "name": "Meia Alpine Star Básica Branca",
+      "image": "/images/products/meia-alpinestar-basica-branca.jpg",
+      "description": "Meia branca da Alpine Star, conforto para qualquer ocasião."
+    }
+  ]
+}

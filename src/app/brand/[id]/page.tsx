@@ -1,31 +1,45 @@
 import { getBrandData } from '@/lib/data';
 import { notFound } from 'next/navigation';
+import ProductCard from '@/components/ProductCard';
 
 interface BrandPageProps {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }
 
-export default function BrandPage({ params }: BrandPageProps) {
-  const brand = getBrandData(params.id);
+interface Product {
+  id: string;
+  name: string;
+  image?: string;
+  description?: string;
+}
+
+export default async function BrandPage({ params }: BrandPageProps) {
+  const { id } = await params;  // Aqui aguarda o params
+  const brand = getBrandData(id);
 
   if (!brand) return notFound();
 
   return (
-    <div className="pt-10 px-[140px] max-[1024px]:px-6">
-      {/* NAV-MAP */}
-      <p className="text-[#707070] text-[14px]">
-        Página Inicial / Meias / {brand.name}
-      </p>
+    <main className="bg-[#ffffff]">
+      <div className="pt-10 px-[140px] max-[1024px]:px-6">
+        <p className="text-[#707070] text-[14px]">
+          Página Inicial / Meias / {brand.name}
+        </p>
 
-      {/* TÍTULO */}
-      <h1 className="text-[20px] font-bold text-black mt-4">
-        Meias {brand.name} ({brand.products.length})
-      </h1>
+        <h1 className="text-[20px] font-bold text-black mt-4">
+          Meias {brand.name} ({brand.products.length})
+        </h1>
 
-      {/* Grid de produtos – a ser implementado */}
-      <div className="mt-10">
-        {/* Aqui entra o grid com os cards dos produtos */}
+        <div className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-[40px]">
+          {brand.products.map((product: Product) => (
+            <ProductCard key={product.id} product={product} />
+          ))}
+        </div>
       </div>
-    </div>
+    </main>
   );
 }
+
+
+
+

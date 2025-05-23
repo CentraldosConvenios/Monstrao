@@ -1,33 +1,9 @@
 {
-  "id": "nike",
-  "name": "Nike",
+  "id": "jodan",
+  "name": "Jordan",
   "logo": "/images/brands/nike-logo.png",
   "description": "Fabricante global de calçados, roupas e equipamentos esportivos.",
   "products": [
-    {
-      "id": "meia-nike-algodão-logo-classico-bordado-branca",
-      "name": "meia nike algodão logo classico bordado branca",
-      "image": "/images/products/nike-air-max.jpg",
-      "description": "Tênis de corrida com tecnologia Air."
-    },
-    {
-      "id": "meia-nike-algodão-logo-classico-bordado-preta",
-      "name": "meia nike algodão logo classico bordado preta",
-      "image": "/images/products/nike-air-max.jpg",
-      "description": "Tênis de corrida com tecnologia Air."
-    },
-    {
-      "id": "meia-nike-algodão-logo-azul-bordado-branca",
-      "name": "meia nike algodão logo azul bordado branca",
-      "image": "/images/products/nike-air-max.jpg",
-      "description": "Tênis de corrida com tecnologia Air."
-    },
-    {
-      "id": "meia-nike-algodão-logo-branco-classico-Preta",
-      "name": "meia-nike-algodão-logo-branco-classico-Preta",
-      "image": "/images/products/nike-air-max.jpg",
-      "description": "Tênis de corrida com tecnologia Air."
-    },
     {
       "id": "meia-jordan-dourada",
       "name": "meia jordan dourada",
@@ -82,6 +58,5 @@
       "image": "/images/products/nike-air-max.jpg",
       "description": "Tênis de corrida com tecnologia Air."
     }
-
   ]
 }

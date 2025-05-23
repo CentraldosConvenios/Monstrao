@@ -1,0 +1,22 @@
+{
+  "id": "ripcurl",
+  "name": "Rip Curl",
+  "logo": "/images/brands/ripcurl-logo.png",
+  "description": "Uma das principais marcas de surf do mundo, com foco em performance e estilo.",
+  "products": [
+    {
+      "id": "meia-ripcurl-basica-preta",
+      "name": "Meia Rip Curl Básica Preta",
+      "image": "/images/products/meia-ripcurl-basica-preta.jpg",
+      "description": "Meia preta básica da Rip Curl, perfeita para quem vive o estilo surf."
+    },
+    {
+      "id": "meia-ripcurl-basica-branca",
+      "name": "Meia Rip Curl Básica Branca",
+      "image": "/images/products/meia-ripcurl-basica-branca.jpg",
+      "description": "Meia branca básica da Rip Curl, leve e confortável."
+    }
+  ]
+}
+
+

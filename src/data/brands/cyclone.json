@@ -1,0 +1,20 @@
+{
+  "id": "cyclone",
+  "name": "Cyclone",
+  "logo": "/images/brands/cyclone-logo.png",
+  "description": "Marca brasileira de streetwear com forte presença no universo do surf e skate.",
+  "products": [
+    {
+      "id": "meia-cyclone-basica-preta",
+      "name": "Meia Cyclone Básica Preta",
+      "image": "/images/products/meia-cyclone-basica-preta.jpg",
+      "description": "Meia preta básica da Cyclone, urbana e resistente."
+    },
+    {
+      "id": "meia-cyclone-basica-branca",
+      "name": "Meia Cyclone Básica Branca",
+      "image": "/images/products/meia-cyclone-basica-branca.jpg",
+      "description": "Meia branca básica da Cyclone, ideal para o dia a dia."
+    }
+  ]
+}

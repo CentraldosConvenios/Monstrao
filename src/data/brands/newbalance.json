@@ -1,0 +1,20 @@
+{
+  "id": "newbalance",
+  "name": "New Balance",
+  "logo": "/images/brands/new-balance-logo.png",
+  "description": "Marca americana focada em inovação e performance esportiva.",
+  "products": [
+    {
+      "id": "meia-new-balance-basica-branca",
+      "name": "Meia New Balance Básica Branca",
+      "image": "/images/products/meia-new-balance-basica-branca.jpg",
+      "description": "Meia branca básica da New Balance, ideal para uso diário com conforto."
+    },
+    {
+      "id": "meia-new-balance-basica-preta",
+      "name": "Meia New Balance Básica Preta",
+      "image": "/images/products/meia-new-balance-basica-preta.jpg",
+      "description": "Meia preta básica da New Balance, versátil e confortável para todas as ocasiões."
+    }
+  ]
+}

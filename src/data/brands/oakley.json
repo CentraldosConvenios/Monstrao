@@ -1,0 +1,32 @@
+{
+  "id": "oakley",
+  "name": "Oakley",
+  "logo": "/images/brands/oakley-logo.png",
+  "description": "Marca conhecida por acessórios e equipamentos esportivos de alta qualidade.",
+  "products": [
+    {
+      "id": "meia-oakley-letreiro-preta",
+      "name": "Meia Oakley Letreiro Preta",
+      "image": "/images/products/meia-oakley-letreiro-preta.jpg",
+      "description": "Meia Oakley com design letreiro preta."
+    },
+    {
+      "id": "meia-oakley-caverao-branca",
+      "name": "Meia Oakley Caverão Branca",
+      "image": "/images/products/meia-oakley-caverao-branca.jpg",
+      "description": "Meia Oakley com design caverão branca."
+    },
+    {
+      "id": "meia-oakley-ticam-preta",
+      "name": "Meia Oakley Ticam Preta",
+      "image": "/images/products/meia-oakley-ticam-preta.jpg",
+      "description": "Meia Oakley com design ticam preta."
+    },
+    {
+      "id": "meia-oakley-escudo-branca",
+      "name": "Meia Oakley Escudo Branca",
+      "image": "/images/products/meia-oakley-escudo-branca.jpg",
+      "description": "Meia Oakley com design escudo branca."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "mizuno",
+  "name": "Mizuno",
+  "logo": "/images/brands/mizuno-logo.png",
+  "description": "Marca japonesa focada em esportes de alta performance, como corrida e futebol.",
+  "products": [
+    {
+      "id": "meia-mizuno-basica-preta",
+      "name": "Meia Mizuno Básica Preta",
+      "image": "/images/products/meia-mizuno-basica-preta.jpg",
+      "description": "Meia preta básica da Mizuno, para performance e conforto."
+    },
+    {
+      "id": "meia-mizuno-basica-branca",
+      "name": "Meia Mizuno Básica Branca",
+      "image": "/images/products/meia-mizuno-basica-branca.jpg",
+      "description": "Meia branca básica da Mizuno, ideal para atividades esportivas."
+    }
+  ]
+}

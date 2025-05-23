@@ -1,0 +1,20 @@
+{
+  "id": "lost",
+  "name": "Lost",
+  "logo": "/images/brands/lost-logo.png",
+  "description": "Marca que traduz a rebeldia do surf e do skate em roupas e acessórios urbanos.",
+  "products": [
+    {
+      "id": "meia-lost-basica-preta",
+      "name": "Meia Lost Básica Preta",
+      "image": "/images/products/meia-lost-basica-preta.jpg",
+      "description": "Meia preta básica da Lost, com atitude e conforto."
+    },
+    {
+      "id": "meia-lost-basica-branca",
+      "name": "Meia Lost Básica Branca",
+      "image": "/images/products/meia-lost-basica-branca.jpg",
+      "description": "Meia branca básica da Lost, ideal para o dia a dia."
+    }
+  ]
+}

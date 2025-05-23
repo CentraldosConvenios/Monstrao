@@ -7,8 +7,6 @@ import { getAllBrands } from "@/lib/data";
 export default function Header() {
   const brands = getAllBrands();
 
-   console.log('Brands carregadas:', brands);
-
   return (
     <>
       <TopHeader />

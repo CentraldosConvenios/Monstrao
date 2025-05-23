@@ -1,7 +1,7 @@
 "use client";
 
-import Link from 'next/link';
-import { useRef, useEffect } from 'react';
+import Link from "next/link";
+import { useRef, useEffect } from "react";
 
 type Brand = {
   id: string;
@@ -9,7 +9,7 @@ type Brand = {
 };
 
 export default function BrandNav({ brands }: { brands: Brand[] }) {
-  const scrollRef = useRef<HTMLDivElement>(null);
+  const scrollRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const slider = scrollRef.current;
@@ -21,33 +21,33 @@ export default function BrandNav({ brands }: { brands: Brand[] }) {
 
     function mouseDown(e: MouseEvent) {
       isDown = true;
-      slider.classList.add('cursor-grabbing');
-      startX = e.pageX - slider.offsetLeft;
-      scrollLeft = slider.scrollLeft;
+      slider?.classList.add("cursor-grabbing");
+      startX = e.pageX - slider!.offsetLeft;
+      scrollLeft = slider!.scrollLeft;
     }
 
     function mouseLeave() {
       isDown = false;
-      slider.classList.remove('cursor-grabbing');
+      slider?.classList.remove("cursor-grabbing");
     }
 
     function mouseUp() {
       isDown = false;
-      slider.classList.remove('cursor-grabbing');
+      slider?.classList.remove("cursor-grabbing");
     }
 
     function mouseMove(e: MouseEvent) {
       if (!isDown) return;
       e.preventDefault();
-      const x = e.pageX - slider.offsetLeft;
+      const x = e.pageX - slider!.offsetLeft;
       const walk = (x - startX) * 2;
-      slider.scrollLeft = scrollLeft - walk;
+      slider!.scrollLeft = scrollLeft - walk;
     }
 
     function touchStart(e: TouchEvent) {
       isDown = true;
-      startX = e.touches[0].pageX - slider.offsetLeft;
-      scrollLeft = slider.scrollLeft;
+      startX = e.touches[0].pageX - slider!.offsetLeft;
+      scrollLeft = slider!.scrollLeft;
     }
 
     function touchEnd() {
@@ -56,29 +56,29 @@ export default function BrandNav({ brands }: { brands: Brand[] }) {
 
     function touchMove(e: TouchEvent) {
       if (!isDown) return;
-      const x = e.touches[0].pageX - slider.offsetLeft;
+      const x = e.touches[0].pageX - slider!.offsetLeft;
       const walk = (x - startX) * 2;
-      slider.scrollLeft = scrollLeft - walk;
+      slider!.scrollLeft = scrollLeft - walk;
     }
 
-    slider.addEventListener('mousedown', mouseDown);
-    slider.addEventListener('mouseleave', mouseLeave);
-    slider.addEventListener('mouseup', mouseUp);
-    slider.addEventListener('mousemove', mouseMove);
+    slider.addEventListener("mousedown", mouseDown);
+    slider.addEventListener("mouseleave", mouseLeave);
+    slider.addEventListener("mouseup", mouseUp);
+    slider.addEventListener("mousemove", mouseMove);
 
-    slider.addEventListener('touchstart', touchStart);
-    slider.addEventListener('touchend', touchEnd);
-    slider.addEventListener('touchmove', touchMove);
+    slider.addEventListener("touchstart", touchStart);
+    slider.addEventListener("touchend", touchEnd);
+    slider.addEventListener("touchmove", touchMove);
 
     return () => {
-      slider.removeEventListener('mousedown', mouseDown);
-      slider.removeEventListener('mouseleave', mouseLeave);
-      slider.removeEventListener('mouseup', mouseUp);
-      slider.removeEventListener('mousemove', mouseMove);
+      slider.removeEventListener("mousedown", mouseDown);
+      slider.removeEventListener("mouseleave", mouseLeave);
+      slider.removeEventListener("mouseup", mouseUp);
+      slider.removeEventListener("mousemove", mouseMove);
 
-      slider.removeEventListener('touchstart', touchStart);
-      slider.removeEventListener('touchend', touchEnd);
-      slider.removeEventListener('touchmove', touchMove);
+      slider.removeEventListener("touchstart", touchStart);
+      slider.removeEventListener("touchend", touchEnd);
+      slider.removeEventListener("touchmove", touchMove);
     };
   }, []);
 
@@ -87,15 +87,15 @@ export default function BrandNav({ brands }: { brands: Brand[] }) {
       ref={scrollRef}
       className="bg-[#FAFAFA] w-full overflow-x-auto flex items-center select-none"
       style={{
-        height: '40px',
-        scrollbarWidth: 'none',        // Firefox
-        msOverflowStyle: 'none',       // IE/Edge
+        height: "40px",
+        scrollbarWidth: "none", // Firefox
+        msOverflowStyle: "none", // IE/Edge
       }}
     >
       <nav
         className="flex gap-[26px] whitespace-nowrap px-[8px]"
         style={{
-          width: 'max-content',
+          width: "max-content",
         }}
       >
         {brands.map((brand) => (
@@ -118,7 +118,7 @@ export default function BrandNav({ brands }: { brands: Brand[] }) {
     </div>
   );
 }
-  
+
 
 
 

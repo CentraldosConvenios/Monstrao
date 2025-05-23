@@ -1,0 +1,20 @@
+{
+  "id": "puma",
+  "name": "Puma",
+  "logo": "/images/brands/puma-logo.png",
+  "description": "Marca alemã conhecida por seu estilo esportivo e urbano.",
+  "products": [
+    {
+      "id": "meia-puma-basica-branca",
+      "name": "Meia Puma Básica Branca",
+      "image": "/images/products/meia-puma-basica-branca.jpg",
+      "description": "Meia branca básica da Puma, perfeita para atividades físicas ou uso casual."
+    },
+    {
+      "id": "meia-puma-basica-preta",
+      "name": "Meia Puma Básica Preta",
+      "image": "/images/products/meia-puma-basica-preta.jpg",
+      "description": "Meia preta básica da Puma, conforto e estilo em qualquer ocasião."
+    }
+  ]
+}
