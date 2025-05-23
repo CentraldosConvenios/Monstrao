@@ -92,7 +92,7 @@ export default function BrandNav({ brands }: { brands: Brand[] }) {
         msOverflowStyle: "none", // IE/Edge
       }}
     >
-    <div className="w-full flex justify-center">
+    <div className="md:w-full md:flex md:justify-center">
       <nav
         className="flex gap-[26px] whitespace-nowrap px-[8px]"
         style={{
