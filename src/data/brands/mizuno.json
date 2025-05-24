@@ -6,15 +6,9 @@
   "products": [
     {
       "id": "meia-mizuno-basica-preta",
-      "name": "Meia Mizuno Básica Preta",
-      "image": "/images/products/meia-mizuno-basica-preta.jpg",
+      "name": "Meia Mizuno Básica Preta / Cinza / Branca",
+      "image": "/imagens/brands/products/mizuno/mizuno-tricolor.png",
       "description": "Meia preta básica da Mizuno, para performance e conforto."
-    },
-    {
-      "id": "meia-mizuno-basica-branca",
-      "name": "Meia Mizuno Básica Branca",
-      "image": "/images/products/meia-mizuno-basica-branca.jpg",
-      "description": "Meia branca básica da Mizuno, ideal para atividades esportivas."
     }
   ]
 }

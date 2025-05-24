@@ -5,9 +5,9 @@
   "description": "Marca de moda urbana conhecida pelo estilo inovador e design único.",
   "products": [
     {
-      "id": "meia-offwhite-bodada-branca-preto",
-      "name": "Meia Off White Bodada Branca e Preto",
-      "image": "/images/products/meia-offwhite-bodada-branca-preto.jpg",
+      "id": "meia-offwhite-bordada-branca-preto",
+      "name": "Meia Off White Bordada",
+      "image": "/imagens/brands/products/offwhite/meiaoff.jpeg",
       "description": "Meia Off White com design bodada nas cores branca e preta."
     }
   ]

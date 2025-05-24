@@ -7,13 +7,13 @@
     {
       "id": "meia-puma-basica-branca",
       "name": "Meia Puma Básica Branca",
-      "image": "/images/products/meia-puma-basica-branca.jpg",
+      "image": "/imagens/brands/products/puma/puma-branca.png",
       "description": "Meia branca básica da Puma, perfeita para atividades físicas ou uso casual."
     },
     {
       "id": "meia-puma-basica-preta",
       "name": "Meia Puma Básica Preta",
-      "image": "/images/products/meia-puma-basica-preta.jpg",
+      "image": "/imagens/brands/products/puma/puma-preta.png",
       "description": "Meia preta básica da Puma, conforto e estilo em qualquer ocasião."
     }
   ]

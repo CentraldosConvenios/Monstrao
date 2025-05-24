@@ -7,13 +7,13 @@
     {
       "id": "meia-new-balance-basica-branca",
       "name": "Meia New Balance Básica Branca",
-      "image": "/images/products/meia-new-balance-basica-branca.jpg",
+      "image": "/imagens/brands/products/nb/nb-branca.png",
       "description": "Meia branca básica da New Balance, ideal para uso diário com conforto."
     },
     {
       "id": "meia-new-balance-basica-preta",
       "name": "Meia New Balance Básica Preta",
-      "image": "/images/products/meia-new-balance-basica-preta.jpg",
+      "image": "/imagens/brands/products/nb/nb-preta.png",
       "description": "Meia preta básica da New Balance, versátil e confortável para todas as ocasiões."
     }
   ]

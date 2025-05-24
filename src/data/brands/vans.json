@@ -7,19 +7,19 @@
     {
       "id": "meia-vans-off-the-wall-preto-vermelho",
       "name": "Meia Vans Off The Wall Preto e Vermelho",
-      "image": "/images/products/meia-vans-off-the-wall-preto-vermelho.jpg",
+      "image": "/imagens/brands/products/vans/meia-vans-vermela.jpeg",
       "description": "Meia Vans estilosa com a clássica estampa Off The Wall em preto e vermelho."
     },
     {
       "id": "meia-vans-off-the-wall-preto-branca",
       "name": "Meia Vans Off The Wall Preto e Branca",
-      "image": "/images/products/meia-vans-off-the-wall-preto-branca.jpg",
+      "image": "/imagens/brands/products/vans/meia-vans-branca.jpeg",
       "description": "Meia Vans urbana com estampa Off The Wall nas cores preto e branca."
     },
     {
       "id": "meia-vans-off-the-wall-branca-preta",
-      "name": "Meia Vans Off The Wall Branca e Preta",
-      "image": "/images/products/meia-vans-off-the-wall-branca-preta.jpg",
+      "name": "Meia Vans Off The Wall Preta e Branca",
+      "image": "/imagens/brands/products/vans/meia-vans-preta.jpeg",
       "description": "Meia Vans com design clássico Off The Wall, branca com detalhes pretos."
     }
   ]

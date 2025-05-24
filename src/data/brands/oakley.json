@@ -7,25 +7,25 @@
     {
       "id": "meia-oakley-letreiro-preta",
       "name": "Meia Oakley Letreiro Preta",
-      "image": "/images/products/meia-oakley-letreiro-preta.jpg",
+      "image": "/imagens/brands/products/oakley/oakley-letreiro-preto.jpeg",
       "description": "Meia Oakley com design letreiro preta."
     },
     {
       "id": "meia-oakley-caverao-branca",
       "name": "Meia Oakley Caverão Branca",
-      "image": "/images/products/meia-oakley-caverao-branca.jpg",
+      "image": "/imagens/brands/products/oakley/oakley-caverao.jpeg",
       "description": "Meia Oakley com design caverão branca."
     },
     {
-      "id": "meia-oakley-ticam-preta",
-      "name": "Meia Oakley Ticam Preta",
-      "image": "/images/products/meia-oakley-ticam-preta.jpg",
+      "id": "meia-oakley-ticam-branca",
+      "name": "Meia Oakley Ticam branca",
+      "image": "/imagens/brands/products/oakley/oakley-ticam.jpeg",
       "description": "Meia Oakley com design ticam preta."
     },
     {
       "id": "meia-oakley-escudo-branca",
       "name": "Meia Oakley Escudo Branca",
-      "image": "/images/products/meia-oakley-escudo-branca.jpg",
+      "image": "/imagens/brands/products/oakley/logo-escudo.jpeg",
       "description": "Meia Oakley com design escudo branca."
     }
   ]
