@@ -7,6 +7,7 @@ export default function HeaderSection() {
     const phoneNumber = '5511942453595'; // Código do Brasil + número (55 + DDD + número)
     const url = `https://wa.me/${phoneNumber}`;
     window.open(url, '_blank');
+    window.fbq('track', 'Lead');
   }
 
   return (

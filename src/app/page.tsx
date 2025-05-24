@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
+import WhatsAppButton from '@/components/WhatsAppButton'
 
 export default function Home() {
   return (
@@ -31,12 +32,7 @@ export default function Home() {
           >
             Saiba Mais
           </Link>
-          <Link
-            href="https://wa.me/5511942453595"
-            className="border border-black text-black text-[14px] font-bold px-6 py-3 rounded-full hover:bg-black hover:text-white transition"
-          >
-            FALE CONOSCO
-          </Link>
+          <WhatsAppButton />
         </div>
       </section>
 

@@ -1,6 +1,7 @@
 import { getBrandData } from '@/lib/data';
 import { notFound } from 'next/navigation';
 import ProductCard from '@/components/ProductCard';
+import BrandTracker from '@/components/BrandTracker'; // ⬅️ IMPORTANTE
 
 interface BrandPageProps {
   params: Promise<{ id: string }>;
@@ -14,13 +15,16 @@ interface Product {
 }
 
 export default async function BrandPage({ params }: BrandPageProps) {
-  const { id } = await params;  // Aqui aguarda o params
+  const { id } = await params;
   const brand = getBrandData(id);
 
   if (!brand) return notFound();
 
   return (
     <main className="bg-[#ffffff]">
+      {/* Dispara o evento ViewContent */}
+      <BrandTracker brandName={brand.name} />
+
       <div className="pt-10 px-[140px] max-[1024px]:px-6">
         <p className="text-[#707070] text-[14px]">
           Página Inicial / Meias / {brand.name}
@@ -39,6 +43,7 @@ export default async function BrandPage({ params }: BrandPageProps) {
     </main>
   );
 }
+
 
 
 

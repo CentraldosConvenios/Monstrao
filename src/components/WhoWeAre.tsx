@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
+import WhatsAppButton from '@/components/WhatsAppButton'
 
 export default function WhoWeAre() {
   return (
@@ -22,12 +22,7 @@ export default function WhoWeAre() {
             Se você vende moda, a Monstrão é o seu lugar.
           </p>
 
-          <Link
-            href="https://wa.me/5511942453595"
-            className="bg-black text-white px-6 py-3 rounded-full w-fit text-[14px] sm:text-[16px] font-semibold hover:bg-[#111] transition"
-          >
-            Fale com um especialista
-          </Link>
+          <WhatsAppButton />
         </div>
 
         {/* Bloco 2 - Imagem */}

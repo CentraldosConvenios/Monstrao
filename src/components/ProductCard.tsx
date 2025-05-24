@@ -13,15 +13,27 @@ export interface Product {
 export default function ProductCard({ product }: { product: Product }) {
   const [imgError, setImgError] = useState(false);
 
-  const whatsappNumber = '5511942453595'; // Substitua pelo seu número
+  const whatsappNumber = '5511942453595';
   const message = encodeURIComponent(`Olá! Tenho interesse no produto: ${product.name}`);
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${message}`;
+
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+
+    if (typeof window !== 'undefined' && typeof window.fbq === 'function') {
+      window.fbq('track', 'Lead');
+    }
+
+    // Aguarda 300ms antes de abrir o link (para garantir que o pixel seja enviado)
+    setTimeout(() => {
+      window.open(whatsappLink, '_blank');
+    }, 300);
+  };
 
   return (
     <a
       href={whatsappLink}
-      target="_blank"
-      rel="noopener noreferrer"
+      onClick={handleClick}
       className="flex flex-col items-start w-full max-w-[245px] cursor-pointer"
     >
       {!imgError && product.image ? (
@@ -42,6 +54,7 @@ export default function ProductCard({ product }: { product: Product }) {
     </a>
   );
 }
+
 
 
 
