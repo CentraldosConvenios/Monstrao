@@ -31,6 +31,9 @@ export default function RootLayout({
   return (
       <html lang="pt-BR">
       <head>
+
+        <meta name="facebook-domain-verification" content="5jja1kufuh4g4xjisfj72oth0606ea" />
+
         {/* Meta Pixel */}
         <Script id="meta-pixel" strategy="afterInteractive">
           {`
