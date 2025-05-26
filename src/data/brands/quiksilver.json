@@ -6,14 +6,68 @@
   "products": [
     {
       "id": "meia-quiksiver-branca-e-azul",
-      "name": "Meia Puma Básica Branca",
-      "image": "/imagens/brands/products/puma/puma-branca.png",
+      "name": "Meia Quiksilver Branca e Azul",
+      "image": "/imagens/brands/products/quiksilver/quiksilver-branca-e-azul.jpeg",
       "description": "Meia branca básica da Puma, perfeita para atividades físicas ou uso casual."
     },
     {
-      "id": "meia-puma-basica-branca",
-      "name": "Meia Puma Básica Branca",
-      "image": "/imagens/brands/products/puma/puma-branca.png",
+      "id": "meia-quiksilver-branca-e-preta",
+      "name": "Meia Quiksilver Branca e Preta",
+      "image": "/imagens/brands/products/quiksilver/quiksilver-branca-e-preta.jpeg",
+      "description": "Meia branca básica da Puma, perfeita para atividades físicas ou uso casual."
+    },
+    {
+      "id": "meia-quiksilver-brasao",
+      "name": "Meia Quiksilver Brasão",
+      "image": "/imagens/brands/products/quiksilver/quiksilver-brasao.jpeg",
+      "description": "Meia branca básica da Puma, perfeita para atividades físicas ou uso casual."
+    },
+    {
+      "id": "meia-quiksilver-crew",
+      "name": "Meia Quiksilver Crew",
+      "image": "/imagens/brands/products/quiksilver/quiksilver-crew.jpeg",
+      "description": "Meia branca básica da Puma, perfeita para atividades físicas ou uso casual."
+    },
+    {
+      "id": "meia-quiksilver-detalhe-azul",
+      "name": "Meia Quiksilver Detalhe Azul",
+      "image": "/imagens/brands/products/quiksilver/quiksilver-detalhe-azul.jpeg",
+      "description": "Meia branca básica da Puma, perfeita para atividades físicas ou uso casual."
+    },
+    {
+      "id": "meia-quiksilver-dourada",
+      "name": "Meia Quiksilver Dourada",
+      "image": "/imagens/brands/products/quiksilver/quiksilver-dourada.jpeg",
+      "description": "Meia branca básica da Puma, perfeita para atividades físicas ou uso casual."
+    },
+    {
+      "id": "meia-quiksilver-letreiro",
+      "name": "Meia Quiksilver Letreiro",
+      "image": "/imagens/brands/products/quiksilver/quiksilver-letreiro.jpeg",
+      "description": "Meia branca básica da Puma, perfeita para atividades físicas ou uso casual."
+    },
+    {
+      "id": "meia-quiksilver-logo-preta",
+      "name": "Meia Quiksilver Logo Preta",
+      "image": "/imagens/brands/products/quiksilver/quiksilver-logo-preta.jpeg",
+      "description": "Meia branca básica da Puma, perfeita para atividades físicas ou uso casual."
+    },
+    {
+      "id": "meia-quiksilver-triplo",
+      "name": "Meia Quiksilver Logo Triplo",
+      "image": "/imagens/brands/products/quiksilver/quiksilver-logo-triplo.jpeg",
+      "description": "Meia branca básica da Puma, perfeita para atividades físicas ou uso casual."
+    },
+    {
+      "id": "meia-quiksilver-logotipo",
+      "name": "Meia Quiksilver Logotipo",
+      "image": "/imagens/brands/products/quiksilver/quiksilver-logotipo.jpeg",
+      "description": "Meia branca básica da Puma, perfeita para atividades físicas ou uso casual."
+    },
+    {
+      "id": "meia-quiksilver-vermelha",
+      "name": "Meia Quiksilver Vermelha",
+      "image": "/imagens/brands/products/quiksilver/quiksilver-vermelha.jpeg",
       "description": "Meia branca básica da Puma, perfeita para atividades físicas ou uso casual."
     }
   ]
